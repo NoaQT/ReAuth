@@ -13,7 +13,7 @@ apply plugin: 'java'
 apply plugin: 'net.minecraftforge.gradle.liteloader'
 apply plugin: 'org.spongepowered.mixin'
 
-version = "3.6.0"
+version = "4.0.7"
 group = "technicianlp"
 archivesBaseName = "reauth"
 
@@ -35,7 +35,7 @@ litemod {
 		description = 'A mod to renew your Session and switch accounts'
 		mcversion = project.minecraft.version
 		version = project.version
-		author = 'TechnicianLP, Earthcomputer'
+		author = 'TechnicianLP, Earthcomputer, NoaQT'
 		mixinConfigs = ['mixins.reauth.json']
 	}
 }
